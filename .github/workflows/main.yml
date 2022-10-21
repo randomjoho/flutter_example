@@ -1,5 +1,6 @@
 # 触发工作流的操作
 # https://github.com/ncipollo/release-action/blob/299f7ef0883a9248608af73f077481c47401fa08/README.md
+# 更新tag
 on:
   push:
     tags:
