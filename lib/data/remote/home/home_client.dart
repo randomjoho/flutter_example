@@ -20,6 +20,8 @@ abstract class HomeClient {
     return HomeClient(DioUtils.dio);
   }
 
+  // 由於接口的contentType不是json，所以返回使用String
+
   @GET(HomeApi.recommendList)
   Future<String> recommendList({
     @DioOptions() Options? options,
