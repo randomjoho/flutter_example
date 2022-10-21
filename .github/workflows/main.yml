@@ -1,5 +1,9 @@
 # 触发工作流的操作
-on: push
+# https://github.com/ncipollo/release-action/blob/299f7ef0883a9248608af73f077481c47401fa08/README.md
+on:
+  push:
+    tags:
+      - '*'
 # 工作流名字
 name: Build and Release apk
 # 需要执行的任务
